@@ -336,3 +336,8 @@ body{
     margin-top: 20px;
     
 }
+.line{
+    display: flex;
+    justify-content: center;
+
+}
