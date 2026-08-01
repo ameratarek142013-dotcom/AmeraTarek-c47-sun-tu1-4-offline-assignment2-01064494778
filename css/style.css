@@ -1,0 +1,338 @@
+body{
+    font-family:  "Rubik", sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+.gym{
+    margin: 40px;
+}
+
+.hero{
+    
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    margin: auto;
+    
+}
+
+.hero .hero-left{
+    
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    
+
+}
+.hero .hero-left h1 {
+    font-size: 60px;
+}
+.hero .hero-left p {
+    font-size: 22px;
+}
+.hero .hero-left .button1 {
+    background-color: black;
+    color: aliceblue;
+    
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.hero .hero-left .button2 {
+     background-color:transparent;
+    color: black;
+    border:2px gray solid;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.hero .hero-right {
+   
+    width: 33%;
+    display: inline-block;
+    vertical-align:middle;
+    padding-left: 60px;
+    padding-top: 80px;
+
+}
+
+.hero .hero-right img {
+    width: 100%;
+ border-radius: 20px;
+}
+
+
+.title , .title2 , .title3{
+    width: 60%;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+}
+.title h2 ,.title2 h2 ,.title3 h2{
+    font-size: 35px;
+}
+.title p , .title2 p , .title3 p{
+    font-size: 18px;
+}
+.cards .card1 , .card2 , .card3 , .review .review1 , .review .review2 , .review .review3{
+    text-align: center;
+    width: 310px;
+    height: 220px;
+    border-radius: 20px;
+    padding: 30px;
+    
+
+}
+.cards .card1 , .review .review1 {
+    background-color:#DBEAFE;
+    float: left;
+}
+
+.cards .card1 .sq1 {
+    background-color: #155DFC;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 14px;
+    overflow: auto;
+
+}
+.cards .card1 .sq1 .sqq1{
+    background-color: azure;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 17px;
+    border-radius: 7px;
+
+}
+.cards .card2 , .review .review2{
+    background-color: #D0FAE5;
+    float: left;
+    margin-left: 40px;
+
+
+}
+.cards .card2 .sq2 {
+    background-color: #009966;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 14px;
+    overflow: auto;
+
+}
+.cards .card2 .sq2 .cr{
+    background-color: azure;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 17px;
+    border-radius: 50%;
+
+}
+.cards .card3 , .review .review3{
+    background-color: #F3E8FF;
+    float: right;
+    margin-left: 20px;
+
+}
+
+
+
+.cards .card3 .sq3 {
+    background-color: rgb(147, 29, 176);
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 14px;
+    overflow: auto;
+
+}
+.cards .card3 .sq3 .sqq3{
+    background-color: azure;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 17px;
+    border-radius: 7px;}
+    
+.cards .clear-fix{
+    clear: both;
+}
+
+.more-benefits{
+    width: 100%;
+    padding-top: 50px;
+
+}
+.more-benefits h2{
+    font-size: 30px;
+}
+
+.more-benefits img {
+    background-color: aqua;
+    width: 50%;
+    float: left;
+    border-radius: 20px;
+    
+    
+}
+.more-benefits .content{
+   
+    width: 45%;
+    float: right;
+    
+}
+.more-benefits .content .bord1 , .bord2 , .bord3 {
+    border-left: 5px black solid;
+    padding-left: 20px;
+}
+.clear-fix{
+    clear: both;
+}
+
+.what-say{
+    background-color: #F9FAFB;
+}
+
+.review .review1 img , .review2 img , .review3 img{
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.review .block{
+    text-align: left;
+}
+
+
+.statics{
+   
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+.statics .static1 ,.static2 ,.static3 ,.static4{
+   background-color: #F1F5F9;
+    width: 25%;
+    float: left;
+    padding-top: 30px;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+.form{
+    background-color:#F9FAFB;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.form .name .fname{
+    float: left;
+}
+.form .name .lname{
+    float: right;
+}
+
+.form input ,.email input , .phone input, .membership select , .area textarea{
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid rgb(196, 194, 194);
+    border-radius: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+
+}
+ .form .name  input {
+    
+    width: 400px;
+    ;
+    
+    
+ }
+ .form .email input , .phone input , .membership select{
+    width: 100%;
+
+ }
+ .form .area textarea{
+    width: 100%;
+    padding: 30px;
+ }
+ .form button{
+    width: 100%;
+    padding: 20px 50px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+ }
+ .form .agree{
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+ }
+
+ .end{
+    padding: 40px;
+    background-color: #101828;
+ }
+ .footer{
+    
+    width: 100%;
+    color: #99A1AF;
+    text-align: left;
+ }
+ .footer .part1 .social{
+    width: 50%;
+    
+    float: left;
+ }
+ .footer .social h2 , .quick h4, .info h4{
+    color: white;
+ }
+ .footer .social a, .quick a ,.part2 a {
+    color: #99A1AF;
+    font-size: 15px;
+    margin: 0 10px;  
+    text-decoration: none; 
+ }
+.footer .quick {
+    float: left;
+    width: 20%;
+    padding-left: 30px;
+ 
+}
+.footer .part1 .info{
+    float: left;
+    width: 20%;
+    padding-left: 30px;
+    
+}
+.footer .part2 p{
+    font-size: 12px;
+    width: 40%;
+    float: left;
+    margin-top: 20px;
+    
+}
+.footer .part2 a{
+    float: right;
+    padding-left: 20px;
+    margin-top: 20px;
+    
+}
